@@ -11,12 +11,13 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          ...scale(1.3),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          color: '#123456',
         }}
       >
-        <Link
+        {/* <Link
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
@@ -25,15 +26,18 @@ const Layout = ({ location, title, children }) => {
           to={`/`}
         >
           {title}
-        </Link>
+        </Link> */}
+        {title}
       </h1>
     )
   } else {
     header = (
       <h3
         style={{
+          ...scale(1.3),
           fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
+          color: '#123456',
         }}
       >
         <Link
