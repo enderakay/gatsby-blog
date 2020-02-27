@@ -5,7 +5,7 @@ module.exports = {
       name: `Ender Akay`,
       summary: `who lives and works in Utrecht building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A playground for me to learn what I can do with Gatsby.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `enderakay`,
